@@ -20,7 +20,7 @@ function Hero() {
         </div>
       </div>
       <div className="hero-image">
-        <div className="student-avatar">👩‍🎓</div>
+        <img src="./bookboard.avif" className="student-avatar" alt="Student learning" />
       </div>
     </section>
   );
