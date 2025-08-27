@@ -9,7 +9,7 @@ function Header() {
     <>
       <header className="header">
         <div className="container">
-          <div className="logo">Coursespace</div>
+          <img src="https://hillboat.com/assets/logotext-DWnb7eaG.svg" className="logo">Coursespace</img>
           <nav className="nav">
             <a href="#home">Home</a>
             <a href="#courses">Courses</a>
