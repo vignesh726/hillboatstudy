@@ -1,0 +1,102 @@
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+.sidebar-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.sidebar-card h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.avatar {
+  font-size: 60px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.progress-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.progress-item span {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.progress-bar {
+  background: #f0f0f0;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress {
+  background: #27ae60;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.testimonial {
+  text-align: center;
+}
+
+.testimonial p {
+  color: #666;
+  margin: 15px 0;
+  font-style: italic;
+}
+
+.mentors {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mentor {
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.newsletter {
+  background: linear-gradient(45deg, #f39c12, #e67e22) !important;
+  color: white;
+}
+
+.newsletter h3 {
+  color: white;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.newsletter button {
+  width: 100%;
+  padding: 12px;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
