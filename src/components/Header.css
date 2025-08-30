@@ -89,6 +89,46 @@
   background: #219a52;
 }
 
+.logged-in-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.welcome-text {
+  color: #28a745;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.logout-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background: #c82333;
+}
+
+@media (max-width: 768px) {
+  .logged-in-section {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  
+  .logout-btn {
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   .container {

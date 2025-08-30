@@ -7,7 +7,7 @@ function Courses() {
       title: "Android Development from Zero to Hero",
       rating: 5,
       reviews: 8,
-      price: "$25/course",
+      price: "₹25/course",
       level: "Beginner",
       image: "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=400&h=250&fit=crop"
     },
@@ -15,7 +15,7 @@ function Courses() {
       title: "UI/UX Complete Guide",
       rating: 4,
       reviews: 15,
-      price: "$20/course",
+      price: "₹20/course",
       level: "Intermediate",
       image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop"
     },
@@ -23,7 +23,7 @@ function Courses() {
       title: "Basic Machine Learning",
       rating: 5,
       reviews: 7,
-      price: "$30/course",
+      price: "₹30/course",
       level: "Beginner",
       image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop"
     }
