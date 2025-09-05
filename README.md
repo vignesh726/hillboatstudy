@@ -1,38 +1,23 @@
-# Course Creation App
-
-A simple web application to create, manage, and enroll in online courses.  
-This project allows instructors to create courses with lessons, and students to browse and enroll.
-
----
+# Hillboat Study
 
 ## Features
+- JWT Authentication
+- Role-Based Access Control (Admin, User, Moderator)
+- MongoDB with Mongoose
+- Swagger/OpenAPI Documentation
 
-- Create and edit courses with multiple lessons
-- User authentication for instructors and students
-- Course enrollment and progress tracking
-- Responsive design for desktop and mobile
+## Setup
+1. Install dependencies: `npm install`
+2. Start MongoDB locally or update MONGODB_URI in .env
+3. Run: `npm run dev`
+4. Access Swagger UI: http://localhost:3000/api-docs
 
----
+## Test Credentials
+Create users via `/api/auth/register` endpoint
 
-## Tech Stack
-
-- Frontend: React.js, CSS (or Tailwind/Bootstrap)
-- Backend: Node.js with Express (or Firebase/Google Apps Script)
-- Database: MongoDB (or Firestore)
-- Authentication: JWT (or Firebase Auth)
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js and npm installed
-- MongoDB running locally or cloud database URI
-
-### Installation
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/yourusername/course-creation-app.git
-   cd course-creation-app
+## API Endpoints
+- POST `/api/auth/register` - Register user
+- POST `/api/auth/login` - Login user
+- GET `/api/users` - Get all users (Admin only)
+- GET `/api/users/profile` - Get current user profile
+- DELETE `/api/users/:id` - Delete user (Admin only)
