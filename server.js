@@ -6,7 +6,7 @@ const bcrypt = require('bcryptjs');
 
 const app = express();
 const PORT =5000;
-const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
+const JWT_SECRET = 'your-super-secret-jwt-key-change-in-production';
 
 app.use(express.json());
 
